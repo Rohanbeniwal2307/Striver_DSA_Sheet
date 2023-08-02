@@ -22,8 +22,7 @@ class Solution {
                 k++;
             }
             if (k > 1) { //greater than 1 isliye h kyunki hum 1 tak  bear kr sakte h kyunki jb wo
-                // rotated array jb khni khtm ho rhi hogi to element wo usse smaller rhega na 
-                //isliye bs 1 hoga 
+                // rotated array jb khni khtm ho rhi hogi to element wo usse smaller rhega  isliye bs 1 hoga 
                 return false;
             }
         }
