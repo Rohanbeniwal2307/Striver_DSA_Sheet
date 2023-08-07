@@ -37,6 +37,7 @@ public class findingThe_NumberThat_appear_once {
 // Tc-->Time Complexity: O(N)+O(N)+O(N), where N = size of the array
 // Sc-->Space Complexity: O(maxElement+1) where maxElement = the maximum element of the array.
 
+//Using Hasing array
 public class tUf {
     public static int getSingleElement(int []arr) {
  
@@ -71,6 +72,8 @@ public class tUf {
 // Better approch 2
 // TC-->Time Complexity: O(N*logM) + O(M), where M = size of the map i.e. M = (N/2)+1. N = size of the array.
 // SC-->Space Complexity: O(M) as we are using a map data structure. Here M = size of the map i.e. M = (N/2)+1.
+
+// using by hashmap
 public class tUfd {
     public static int getSingleElement(int []arr) {
         int n = arr.length;
@@ -96,6 +99,8 @@ public class tUfd {
 }
 // Better 3 
 // TC= NlogN+N due to sorting 
+
+// using by logical approch 
 class Solution {
     public int singleNumber(int[] nums) {
         Arrays.sort(nums);
