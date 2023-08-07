@@ -11,7 +11,6 @@ public class findingThe_NumberThat_appear_once {
         for (int i = 0; i < n; i++) {
             int num = arr[i]; 
             int cnt = 0;
-
             for (int j = 0; j < n; j++) {
                 if (arr[j] == num)
                     cnt++;
