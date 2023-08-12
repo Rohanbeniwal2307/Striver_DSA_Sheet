@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class towerofhanoi {
    
  public static void Toh(int n,int A, int B, int C){
+    
         if(n==0){
             return;
         }

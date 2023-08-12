@@ -9,8 +9,8 @@ public class Prime
 
     {
 
-        int n, x;
-
+        int n, x;  
+        
         Scanner s = new Scanner(System.in);
 
         System.out.print("Enter any number:");
