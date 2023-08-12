@@ -102,7 +102,7 @@ public class tUfd {
 // using by logical approch 
 class Solution {
     public int singleNumber(int[] nums) {
-       
+      
         Arrays.sort(nums);
         for(int i=0;i<nums.length-1;i+=2){
             if(i%2==0 && nums[i]!=nums[i+1]){
