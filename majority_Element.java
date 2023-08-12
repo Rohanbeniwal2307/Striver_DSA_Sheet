@@ -39,6 +39,7 @@ class Solution3 {
           int n=nums.length;
           int el=0;
            int count=0;
+           
            int ans=0;;
           for(int i=0;i<n;i++){
               if(count==0){
