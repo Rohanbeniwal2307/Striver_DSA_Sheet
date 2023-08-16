@@ -1,5 +1,5 @@
 
- import java.util.*;
+
 public class mxm_consecutive_ones {
     static int findMaxConsecutiveOnes(int nums[]) {
         int cnt = 0;

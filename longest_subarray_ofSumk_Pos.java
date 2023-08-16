@@ -3,7 +3,7 @@
 
 // brute force 
 // Tc--> N*3
-import java.util.*;
+
 
 public class longest_subarray_ofSumk_Pos {
     public static int getLongestSubarray(int []a, long k) {
