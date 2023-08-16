@@ -5,7 +5,7 @@
 // Time Complexity: O(N3)
 class Solution1brute {
     public int maxSubArray(int[] nums) {
-    
+        
         int n=nums.length;
         int maxi=Integer.MIN_VALUE;
         for(int i=0;i<n;i++){
