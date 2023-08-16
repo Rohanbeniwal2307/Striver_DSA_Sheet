@@ -8,7 +8,7 @@
 public class longest_subarray_ofSumk_Pos {
     public static int getLongestSubarray(int []a, long k) {
         int n = a.length; // size of the array.
-
+        
         int len = 0;
         for (int i = 0; i < n; i++) { 
             for (int j = i; j < n; j++) { 
