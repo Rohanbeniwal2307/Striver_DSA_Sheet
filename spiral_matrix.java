@@ -9,6 +9,7 @@ Space Complexity: O(n) { Extra Space used for storing traversal in the ans array
     public List<Integer> spiralOrder(int[][] matrix) {
         ArrayList<Integer> a=new ArrayList<>();
         int left=0;
+        
         int n=matrix[0].length;
         int top=0;
         int m=matrix.length;
