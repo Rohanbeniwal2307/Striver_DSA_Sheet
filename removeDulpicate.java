@@ -8,7 +8,7 @@ public class removeDulpicate {
         }
         int k = set.size();
         int j = 0;
-        for (int x: set) {
+        for (int x: set) { 
             arr[j++] = x;
         }
         return k;
